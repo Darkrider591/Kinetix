@@ -220,7 +220,7 @@ class GenerationWorker(QThread):
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Kinetix — CAD AI Assistant (Autodesk Inventor 2025)")
+        self.setWindowTitle("Kinetix")
         self.resize(1100, 780)
 
         self.bridge = InventorBridge()
